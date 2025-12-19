@@ -34,6 +34,7 @@ The repo is organized into independent modules (e.g. training pipeline, neural n
 ## Modules
 
 ### 1. Training Pipeline
+
 Focuses on:
 - Data preprocessing
 - Train–test split
@@ -44,6 +45,7 @@ Focuses on:
 Folder: `1 - Training Pipeline/`
 
 ### 2. NN Module
+
 Focuses on:
 - Understanding how `nn.Module` works internally
 - Building neural networks in a clean, modular structure
@@ -51,6 +53,16 @@ Focuses on:
 - Applying best practices for binary classification
 
 Folder: `2 - NN Module/`
+
+### 3. Dataset & DataLoader Class
+
+Focuses on:
+- Understanding PyTorch’s `Dataset` and `DataLoader` abstractions
+- Implementing custom datasets using `__len__` and `__getitem__`
+- Mini-batch training and data shuffling
+- Integrating `DataLoader` cleanly into a training pipeline
+
+Folder: `3 - Dataset & DataLoader Class/`
 
 <!-- --- -->
 
