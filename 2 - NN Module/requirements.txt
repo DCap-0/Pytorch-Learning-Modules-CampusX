@@ -1,0 +1,6 @@
+ipykernel
+numpy
+pandas
+scikit-learn
+torch --index-url https://download.pytorch.org/whl/cpu
+torchinfo

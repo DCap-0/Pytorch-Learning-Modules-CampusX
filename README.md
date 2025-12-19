@@ -41,7 +41,16 @@ Focuses on:
 - Training loops and evaluation
 - CPU vs GPU experimentation
 
-Folder: `Training-Pipeline/`
+Folder: `1 - Training Pipeline/`
+
+### 2. NN Module
+Focuses on:
+- Understanding how `nn.Module` works internally
+- Building neural networks in a clean, modular structure
+- Implementing a proper PyTorch training loop
+- Applying best practices for binary classification
+
+Folder: `2 - NN Module/`
 
 <!-- --- -->
 
