@@ -3,3 +3,55 @@
 This repository contains my PyTorch learning notes and experiments while following the CampusX curriculum.
 
 The repo is organized into independent modules (e.g. training pipeline, neural networks), each with its own notebook and environment.
+
+<!-- --- -->
+
+## General Setup (for any module)
+
+1. **Navigate into the module folder**  
+  ```bash
+  cd <module-folder>
+  ```
+
+2. **Create and activate a virtual environment**  
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate        # Linux / Mac
+  # .venv\Scripts\activate 
+  ```
+
+3. **Install Dependencies**  
+  ```bash
+  pip install -r requirements.txt
+  ```
+4. **Select the environment as kernel**  
+  In VS Code, select the `.venv` Python interpreter or the registered kernel.
+
+> Each module manages its own environment. Do not reuse environments across folders.
+
+<!-- --- -->
+
+## Modules
+
+### 1. Training Pipeline
+Focuses on:
+- Data preprocessing
+- Train–test split
+- Manual neural network implementation in PyTorch
+- Training loops and evaluation
+- CPU vs GPU experimentation
+
+Folder: `Training-Pipeline/`
+
+<!-- --- -->
+
+## Notes
+- `.venv` folders are intentionally ignored via `.gitignore`
+- No package installation commands are kept inside notebooks
+- Dependencies are defined only via `requirements.txt`
+
+<!-- --- -->
+
+## Requirements
+- Python 3.10+
+- NVIDIA GPU (optional, for CUDA experiments)
