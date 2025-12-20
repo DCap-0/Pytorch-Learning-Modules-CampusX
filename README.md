@@ -64,6 +64,18 @@ Focuses on:
 
 Folder: `3 - Dataset & DataLoader Class/`
 
+### 4. Artificial Neural Networks (ANN)
+
+Focuses on:
+- Implementing ANN architectures using `nn.Module` and `nn.Sequential`
+- Writing clean training and evaluation loops
+- Using GPU acceleration for faster training
+- Applying regularization techniques (Dropout, BatchNorm, L2)
+- Designing dynamic networks programmatically
+- Automating hyperparameter tuning with Optuna
+
+Folder: `4 - ANN/`
+
 <!-- --- -->
 
 ## Notes
