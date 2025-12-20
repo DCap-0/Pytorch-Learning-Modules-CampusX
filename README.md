@@ -76,6 +76,16 @@ Focuses on:
 
 Folder: `4 - ANN/`
 
+### 5. Convolutional Neural Networks (CNN)
+
+Focuses on:
+- Transition from ANN to CNN architectures
+- Learning convolutional feature extraction
+- Working with image-shaped tensors in PyTorch
+- Applying CNNs to Fashion-MNIST
+
+Folder: `5 - CNN/`
+
 <!-- --- -->
 
 ## Notes

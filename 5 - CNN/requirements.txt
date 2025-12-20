@@ -1,0 +1,10 @@
+ipykernel
+numpy
+pandas
+scikit-learn
+matplotlib
+torch --index-url https://download.pytorch.org/whl/cu121
+# For CPU-only systems, use:
+# torch --index-url https://download.pytorch.org/whl/cpu
+torchinfo
+optuna
