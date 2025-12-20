@@ -1,6 +1,6 @@
 # Artificial Neural Networks (ANN) – Fashion MNIST
 
-This folder contains a progressive implementation of **Artificial Neural Networks (ANNs)** using **PyTorch**, trained on a subset of the **Fashion-MNIST** dataset.
+This folder contains a progressive implementation of **Artificial Neural Networks (ANNs)** using **PyTorch**, trained on a subset of the **Fashion-MNIST** dataset for CPU based notebook and train-superset for gpu based notebooks.
 
 The notebooks are structured to reflect an incremental learning approach — starting from a basic ANN and gradually introducing GPU acceleration, regularization techniques, and automated hyperparameter tuning.
 
@@ -59,6 +59,8 @@ The notebooks are structured to reflect an incremental learning approach — sta
 
 ## Dataset
 - `fmnist_small.csv`
+- `fashion-mnist_train.csv`
+  - Download the dataset from Kaggle: https://www.kaggle.com/datasets/zalando-research/fashionmnist
 - Flattened 28×28 grayscale images
 - 10-class classification problem
 
