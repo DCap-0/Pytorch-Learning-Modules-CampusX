@@ -87,6 +87,20 @@ Focuses on:
 
 Folder: `5 - CNN/`
 
+### 6. Transfer Learning
+
+Focuses on:
+- Using pretrained CNNs for new tasks
+- Adapting ImageNet-trained models to Fashion-MNIST
+- Freezing backbone layers and training custom classifiers
+- Image preprocessing for transfer learning
+- Efficient GPU-based fine-tuning
+
+Model used:
+- **VGG16 (pretrained on ImageNet)**
+
+Folder: `6 - Transfer Learning/`
+
 <!-- --- -->
 
 ## Notes
