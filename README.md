@@ -80,9 +80,10 @@ Folder: `4 - ANN/`
 
 Focuses on:
 - Transition from ANN to CNN architectures
-- Learning convolutional feature extraction
+- Learning convolutional feature extraction using `Conv2d`, `BatchNorm2d`, and pooling
 - Working with image-shaped tensors in PyTorch
 - Applying CNNs to Fashion-MNIST
+- Hyperparameter optimization with Optuna
 
 Folder: `5 - CNN/`
 

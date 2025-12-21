@@ -4,12 +4,16 @@ This folder contains implementations of **Convolutional Neural Networks (CNNs)**
 
 The focus is on transitioning from fully connected ANNs to CNNs, understanding convolutional feature extraction, and training models efficiently using GPU acceleration.
 
+> General CNN Architecture:
+
+![alt text](image.png)
+
 <!-- --- -->
 
 ## Contents
 
 ### 1. CNN with GPU Acceleration
-**Notebook:** `cnn-fashion-mnist-gpu.ipynb`
+**Notebook:** `01-cnn-fashion-mnist-gpu.ipynb`
 
 - Uses raw Fashion-MNIST CSV data
 - Reshapes flat image vectors into `1×28×28` tensors
@@ -22,6 +26,31 @@ The focus is on transitioning from fully connected ANNs to CNNs, understanding c
 - Fully connected classifier head
 - Trained using **SGD with weight decay**
 - Evaluated on train and test sets
+
+### 2. CNN with Optuna Hyperparameter Optimization
+**Notebook:** `02-cnn-fashion-mnist-gpu-optuna.ipynb`
+
+- Builds a dynamic CNN architecture driven by Optuna
+- Uses the same Fashion-MNIST preprocessing pipeline with GPU support
+- Introduces **automated hyperparameter tuning**, including:
+  - Number of convolutional layers
+  - Number of filters per layer
+  - Kernel size
+  - Number of fully connected layers
+  - Fully connected layer size
+  - Dropout rate
+  - Optimizer choice (Adam, SGD, RMSprop)
+  - Learning rate
+  - Batch size
+  - L2 regularization (`weight_decay`)
+- Separates concerns clearly:
+  - Model definition (`DynamicCNN`)
+  - Training loop
+  - Evaluation logic
+  - Optuna objective function
+- Uses **Median Pruner** to stop underperforming trials early
+- Final model is **retrained from scratch** using the best Optuna parameters
+- Reports final **train and test accuracy**
 
 <!-- --- -->
 
