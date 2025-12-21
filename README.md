@@ -112,6 +112,17 @@ Focuses on:
 
 Folder: `7 - RNN/`
 
+### 8. Long Short-Term Memory Networks (LSTM)
+
+Focuses on:
+- Understanding LSTM internals (hidden state & cell state)
+- Sequence modeling for language tasks
+- Next-word prediction using autoregressive generation
+- Handling variable-length text sequences
+- Padding and sliding-window training strategies
+
+Folder: `8 - LSTM/`
+
 <!-- --- -->
 
 ## Notes
