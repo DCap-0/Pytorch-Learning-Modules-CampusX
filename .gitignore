@@ -13,6 +13,7 @@ venv/
 **/data/raw/
 **/data/processed/
 4 - ANN/fashion-mnist_train.csv
+5 - CNN/fashion-mnist_train.csv
 
 # Model weights
 *.pt
