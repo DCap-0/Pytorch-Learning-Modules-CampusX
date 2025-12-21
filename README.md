@@ -101,6 +101,17 @@ Model used:
 
 Folder: `6 - Transfer Learning/`
 
+### 7. Recurrent Neural Networks (RNN)
+
+Focuses on:
+- Understanding sequence modeling fundamentals
+- Working with text data in PyTorch
+- Tokenization, vocabulary creation, and embeddings
+- Implementing RNNs from scratch for NLP tasks
+- Building a simple Question Answering system
+
+Folder: `7 - RNN/`
+
 <!-- --- -->
 
 ## Notes
